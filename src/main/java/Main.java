@@ -6,17 +6,14 @@
 import java.util.Random;
 public class Main {
   public static void main(String[] args) {
-   
-  int suma = 0;
-    for(int i = 1; i<=100; i+=2){
+  
 
-          suma += i;
+   for(int celcjusz =0; celcjusz <=300; celcjusz+=20){
 
-      
-    }
-        
-    System.out.println(suma);
-
+int faren = celcjusz * 9/5 + 32;
+     System.out.println("c "+ celcjusz + " f " + faren);
+     
+   }
 
 
 
