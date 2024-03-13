@@ -4,14 +4,16 @@
 
 public class Main {
   public static void main(String[] args) {
-    String tekst = "Hello World";
-    for (int i = 0; i < tekst.length(); i++) {
-        for(int j = 0; j < i ; j++){
-          System.out.print(" ");
+    
+        for (int i= 0; i <=100; i++){
+          if (i % 4 ==0){
+
+            System.out.println(+ i);
+            
+          }
+  
+          
         }
-        System.out.println(tekst.charAt(i));
-        
       
     }
   }
-}
