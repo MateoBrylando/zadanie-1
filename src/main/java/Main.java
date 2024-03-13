@@ -6,22 +6,21 @@
 import java.util.Random;
 public class Main {
   public static void main(String[] args) {
-    int suma = 0;
-    
-   Random rand = new Random(); 
-      for(int i = 0; i<5; i++){
+   
+  int suma = 0;
+    for(int i = 1; i<=100; i+=2){
 
-         int randomNum = rand.nextInt(101);
-         System.out.println(randomNum);
-        int iloczyn = randomNum * randomNum;
-        System.out.println("Iloraz tej liczby to : " + iloczyn);
-        suma += iloczyn;
+          suma += i;
 
-        
-      }
-      System.out.println("Suma wszystkich ilorazów to : " + suma);
-          
-        }
       
+    }
+        
+    System.out.println(suma);
+
+
+
+
+    
+}   
     }
   
